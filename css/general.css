@@ -11,7 +11,7 @@ body{
 
 }
 .page{
-    background-color: #484d59;
+    background-color: #465D7A;
     color: #FFF;
 }
 section {
@@ -26,9 +26,16 @@ section {
 .row {
 
 }
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .grid-by-2{
     width: 380px;
+
+    width: 46%;
+
     float: left;
     margin: 5px;
 }
@@ -112,10 +119,6 @@ h1 {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 16px;
-}
-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 .underlined-row {
     border-top:1px solid #bbbbbb;
@@ -264,7 +267,6 @@ footer{
     color: #bbb;
     font-size: 15px;
     line-height: 21px;
-    height: 400px;
 }
 #competences
 {
@@ -302,7 +304,6 @@ footer{
     font-size: 34px;
 }
 #edito > div > div > p {
-    font-size: 19px;
     line-height: 32px;
 }
 
@@ -335,7 +336,7 @@ footer{
     height: 18px;
 
     max-width: 500px;
-    width: 80%;
+    width: 100%;
 
     overflow: hidden;
     padding: 0;
@@ -343,4 +344,10 @@ footer{
 }
 .skillbar{
     padding-left: 0;
+}
+strong, b {
+    font-weight: bold;
+}
+.products>h2 {
+    font-size: 22px;
 }
